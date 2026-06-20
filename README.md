@@ -2,6 +2,8 @@
 
 适用于 Microsoft Word 2021 / 2019 / 2016 / Microsoft 365 的 VBA 宏插件。
 
+![状态栏预览](images/status-bar-preview.png)
+
 ## 功能
 
 - **总字数**：文档当前总字数
@@ -33,6 +35,8 @@ WordWriterTimer/
 
 1. 打开 Word，新建一个空白文档。
 2. 按 **Alt + F11** 打开 VBA 编辑器。
+
+![VBA 编辑器](images/vba-editor.png)
 
 > 如果 `Alt + F11` 没反应，可能是因为笔记本电脑需要按 **Fn + Alt + F11**，或者通过菜单打开：
 > **文件 → 选项 → 自定义功能区 → 勾选“开发工具” → 确定 → 点击“开发工具”选项卡 → Visual Basic**
@@ -82,6 +86,9 @@ WordWriterTimer/
 1. 关闭 VBA 编辑器，回到 Word。
 2. **文件 → 选项 → 信任中心 → 信任中心设置 → 宏设置**。
 3. 选择 **启用所有宏**（测试用），或 **禁用所有宏，并发出通知**（推荐长期使用）。
+
+   ![启用宏](images/enable-macros.png)
+
 4. 点击确定，**重启 Word**。
 
 ## 使用方法
@@ -91,6 +98,8 @@ WordWriterTimer/
 1. 按 **Alt + F8** 打开宏对话框。
 2. 选择 `StartWriting`，点击运行。
 3. 观察 Word 底部状态栏的统计信息。
+
+![运行宏](images/run-macro.png)
 
 ### 常用宏
 
@@ -110,6 +119,8 @@ WordWriterTimer/
 4. 点击每个宏的 **修改**，选择图标和显示名称。
 5. 点击确定。
 
+   ![快速访问工具栏](images/quick-access-toolbar.png)
+
 ### 设置快捷键
 
 1. **文件 → 选项 → 自定义功能区 → 键盘快捷方式：自定义**。
@@ -125,6 +136,12 @@ WordWriterTimer/
 ```
 总字数:1234 | 写入字数:567 | 写入时间:00:10:00 | 写入速度:3,402.0 | 总时间:00:15:00 | 总速度:2,268.0字/小时
 ```
+
+## 浮动窗口
+
+运行 `ShowStats` 后，会显示一个不影响打字的浮动统计窗口：
+
+![浮动窗口](images/floating-window.png)
 
 ## 卸载
 
