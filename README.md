@@ -19,8 +19,7 @@
 WordWriterTimer/
 ├── WordWriterTimer.bas        # 核心宏代码
 ├── frmStatsSimple_Code.txt    # 浮动统计窗体代码
-├── README.md                  # 使用说明
-└── TROUBLESHOOTING.md         # 常见问题与易出错点
+└── README.md                  # 使用说明
 ```
 
 ## 环境要求
